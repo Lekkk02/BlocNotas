@@ -1,0 +1,73 @@
+.navbar{
+  background: linear-gradient(#222222, rgb(25, 11, 104));
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  bottom: 0px;
+  width: 130px;
+  display: block;
+}
+
+
+
+.navbar .nav-item .nav-link {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px !important;
+}
+.navbar .nav-item .nav-link:hover {
+  color: rgb(163, 163, 163);
+}
+
+#buttonSave {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: 20px;
+}
+
+#buttonSave:hover {
+  color: rgb(163, 163, 163);
+}
+* {
+  outline: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Courier, monospace;
+}
+
+#buttonCrear {
+  margin-top: 15px;
+  width: 80px;
+  background: linear-gradient(#222222, rgb(25, 11, 104));
+  color: white;
+}
+
+#paper {
+  color: #fff;
+  font-size: 20px;
+}
+
+#text {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  color: #222;
+  font-size: 24px;
+  resize: none;
+  padding-bottom: 34px;
+  padding-left: 150px;
+  -webkit-box-shadow: 0px 2px 14px #000;
+  box-shadow: 0px 2px 14px #000;
+  border-top: 1px solid #fff;
+}
+
+
+#wrapper {
+  width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
